@@ -21,6 +21,6 @@ print(f" Média anual das temperaturas: {media_anual:.2f}°C") #Exibe a média a
 print("\nMeses com temperatura acima da média anual:") #O \n é usado para dar espaço na mensagem
 for i in range(12): # loop for percorre os 12 meses.
     if temperaturas[i] > media_anual: #Para cada índice i, verifica-se a temperatura do mês correspondente (temperaturas[i]) é maior que a média anual (media_anual).
-     print(f"{meses[i]}: {temperaturas[i]:.2f}°C")
+        print(f"{meses[i]}: {temperaturas[i]:.2f}°C")
 
 
